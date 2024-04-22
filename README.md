@@ -10,9 +10,10 @@ webPort: ":9002"
 onlyLocalNet: true
 
 # systemd systemctl service 列表
-service: [ "nginx","redis","jiacrontab_admin","jiacrontabd", "gfapp","gfapp2","aaaaa" ]
+service: [ "nginx","redis","laravel_queue","phpcronjob", "gfapp" ]
 
 # 登录用户 {"username":"password"}
 adminUser: { "admin": "123456","user": "abcd" }
+
 
 ```
