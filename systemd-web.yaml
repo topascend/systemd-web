@@ -1,0 +1,11 @@
+# 服务端口
+webPort: ":9002"
+# 是否只允许局域网访问
+onlyLocalNet: true
+
+# systemd systemctl service 列表
+service: [ "nginx","redis","laravel_queue","phpcronjob", "gfapp" ]
+
+# 登录用户 {"username":"password"}
+adminUser: { "admin": "123456","user": "abcd" }
+
