@@ -1,4 +1,3 @@
-# systemd-web
 # Systemd Web
 
 Systemd Web 是一个 Systemd 的 Web UI 管理系统，通过直观的界面和易用的操作，让用户能够轻松地管理 Linux 系统和服务。该项目旨在简化 Systemd 的使用，使得无论是专业的系统管理员还是普通的用户，都能够方便地对系统进行操作。
@@ -35,7 +34,6 @@ Systemd Web 还提供了强大的日志管理功能，用户可以通过 Web 界
 
 Systemd Web 结合了 Systemd 的强大功能与 Web UI 的直观便捷，为 Linux 系统的管理带来了极大的便利。无论是专业的系统管理员还是普通的用户，都可以通过 Systemd Web 轻松地管理 Linux 系统和服务，确保系统的稳定性和功能的完整性。
 
-欢迎各位使用和贡献代码，共同完善和发展 Systemd Web 项目！
  
 <img src="https://raw.githubusercontent.com/topascend/systemd-web/main/1.png" />
 <img src="https://raw.githubusercontent.com/topascend/systemd-web/main/2.png" />
