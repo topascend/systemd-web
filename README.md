@@ -81,19 +81,15 @@ adminUser: { "admin": "123456","user": "abcd" }
 
 ```
 
-## 感谢  
+### 感谢  
   
 在此，我们想要特别感谢以下两个开源项目，它们为我们的项目提供了极大的帮助和支持：  
   
-### GoFrame  
-  
+#### GoFrame  
 GoFrame 是一款模块化、高性能、企业级的 Go Web 开发框架，它提供了丰富的功能和灵活的扩展性，使我们的后端开发变得更为高效和便捷。  
-  
 [GoFrame 官方文档](https://goframe.org/)  
   
-### Layui  
-  
+#### Layui  
 Layui 是一款非常受欢迎的前端 UI 框架，它以简单模块化的方式构建，为快速开发提供了良好的支持。Layui 的丰富组件和优美的界面设计，为我们的前端页面增色不少。  
-  
-[Layui 官方文档](https://www.layuicdn.com/layui/)  
+[Layui 官方文档](https://github.com/layui/layui)  
   
