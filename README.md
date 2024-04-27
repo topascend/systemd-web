@@ -65,6 +65,7 @@ RestartSec=5
 WantedBy=multi-user.target
 ```
 ## systemd-web.yaml 配置文件
+service 为需要通过 systemd-web 管理的服务
 
 ```
 # 服务端口
