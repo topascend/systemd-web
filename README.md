@@ -39,8 +39,8 @@ Systemd Web 结合了 Systemd 的强大功能与 Web UI 的直观便捷，为 Li
 <img src="https://raw.githubusercontent.com/topascend/systemd-web/main/3.png" />
 
 ## 使用方法
-### 1.systemd-web.yaml 为配置文件,和 systemd-web 放在同一目录下即可。
-### 2.  ./systemd-web 即可运行,浏览器访问 http://127.0.0.1:9002
+### 1 systemd-web.yaml 为配置文件,和 systemd-web 放在同一目录下即可。
+### 2   ./systemd-web 即可运行,浏览器访问 http://127.0.0.1:9002
 ### 建议 systemd-web 配置为 systemd 启动
 
 ```
