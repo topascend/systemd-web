@@ -25,24 +25,24 @@ Systemd Web 还提供了强大的日志管理功能，用户可以通过 Web 界
 
 ### systemd-web 设置为系统服务
 
-# 赋予当前程序权限
-# chmod -R 777 /www/go/systemd-web
+#### 赋予当前程序权限
+#### chmod -R 777 /www/go/systemd-web
 
-# 创建软链接
-# cd /etc/systemd/system
-# ln -s /www/go/systemd-web/service/systemd-web.service  systemd-web.service
+#### 创建软链接
+#### cd /etc/systemd/system
+#### ln -s /www/go/systemd-web/service/systemd-web.service  systemd-web.service
 
-# 重载所有修改过的配置文件
-# sudo systemctl daemon-reload
+#### 重载所有修改过的配置文件
+#### sudo systemctl daemon-reload
 
-# 立即启动一个服务
-# sudo systemctl start systemd-web.service
-# sudo systemctl status  systemd-web.service
+#### 立即启动一个服务
+#### sudo systemctl start systemd-web.service
+#### sudo systemctl status  systemd-web.service
 
 
-# 浏览器访问,注意服务端口和密码设置
+#### 浏览器访问,注意服务端口和密码设置
 
-# 182.92.182.174:8999
+#### 182.92.182.174:8999
 
 
 
