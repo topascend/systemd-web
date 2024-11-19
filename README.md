@@ -23,6 +23,33 @@ Systemd Web 还提供了强大的日志管理功能，用户可以通过 Web 界
 
 ## 使用方法
 
+### systemd-web 设置为系统服务
+
+# 赋予当前程序权限
+# chmod -R 777 /www/go/systemd-web
+
+# 创建软链接
+# cd /etc/systemd/system
+# ln -s /www/go/systemd-web/service/systemd-web.service  systemd-web.service
+
+# 重载所有修改过的配置文件
+# sudo systemctl daemon-reload
+
+# 立即启动一个服务
+# sudo systemctl start systemd-web.service
+# sudo systemctl status  systemd-web.service
+
+
+# 浏览器访问,注意服务端口和密码设置
+
+# 182.92.182.174:8999
+
+
+
+# 设置其他服务
+# cd /etc/systemd/system
+# ln -s /www/go/systemd-web/service/mytest.service  mytest.service
+# ln -s /www/go/systemd-web/service/mytest002.service  mytest002.service
 ### 访问 Web 界面
 
 用户只需在浏览器中输入 `http://127.0.0.1:9002/` 即可访问 Systemd Web 的管理界面。界面设计简洁明了，操作便捷，用户无需深入了解 Systemd 的命令行操作即可轻松管理系统。
